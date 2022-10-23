@@ -5,3 +5,10 @@ itsdangerous
 Jinja2
 peewee
 Werkzeug
+web3
+eth_account
+flask
+requests
+psycopg2-binary
+cloudinary
+Flask-Session

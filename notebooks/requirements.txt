@@ -1,0 +1,7 @@
+web3
+eth_account
+flask
+requests
+psycopg2
+cloudinary
+Flask-Session

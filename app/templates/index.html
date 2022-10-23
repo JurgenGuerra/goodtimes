@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GoodTimes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://stackoverflow.com/questions/61485906/sublime-text-3-switched-my-tabs-to-be-2-spaces-instead-of-4">
+  <meta property="og:site_name" content="GoodTimes">
+  <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:domain" content="GoodTimes.com">
+  <meta name="twitter:title" property="og:title" itemprop="name" content="GoodTimes">
+  <meta name="twitter:description" property="og:description" itemprop="description" content="Encuentras los mejores eventos y compra tu ticket!">
+  <link rel='stylesheet' type="text/css" href='/static/style.css'/>
+  </head>
+<body class="bg-gradient-to-r from-violet-900 to-blue-900">
+<header>
+    <!-- lg+ -->
+    <div class="relative border-b border-indigo-300 border-opacity-25  bg-gradient-to-r from-violet-700 to-blue-800">
+        <div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <nav class="flex items-center justify-between h-16 lg:h-20">
+                <div class="flex-shrink-0">
+                  <a href="#" title="" class="flex font-bold text-white text-2xl lg:text-3xl flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8"> <path d="M9.375 2C8.33947 2 7.5 2.83946 7.5 3.875C7.5 4.91053 8.33946 5.74999 9.37499 5.75L10.25 5.75L10.25 9.25L3.375 9.25C2.33947 9.25 1.5 9.41053 1.5 8.375L1.5 6.625C1.5 5.589 2.34 5.75 3.375 5.75L6.568 5.75C5.55781 4.24934 5.91044 2.21906 7.36749 1.14693C8.82454 0.0747937 10.8678 0.342114 12 1.753C13.1322 0.342121 15.1755 0.0748061 16.6325 1.14694C18.0896 2.21907 18.4422 4.24934 17.432 5.75L21.375 5.75C22.41 5.75 23.25 5.59 23.25 6.625L23.25 8.375C23.25 9.411 22.41 9.25 21.375 9.25L13.75 9.25L13.75 5.75L14.625 5.75C15.6605 5.75 16.5 4.91054 16.5 3.875C16.5 2.83947 15.6605 2 14.625 2C13.5895 2 13.75 2.83946 13.75 3.87499L13.75 5.75L10.25 5.75L10.25 3.875C10.25 2.839 10.41 2 9.375 2L9.375 2ZM10 11.8497L3 11.8L3 19.5127C3 20.7485 3.85473 21.7503 4.90909 21.7503L10 21.8L10 11.8497L10 11.8497ZM13.75 11.75L13.75 21.75L19.75 21.75C20.8546 21.75 21.75 20.7426 21.75 19.5L21.75 11.75L13.75 11.75L13.75 11.75Z" /></svg> <span>oodTimes</span> 
+                  </a>
+                </div>
+                <div>
+                    <a href="{{ url_for('index')}}" class="text-white hover:bg-indigo-500 hover:bg-opacity-75 rounded-md py-2 px-3 text-sm font-medium">Lanzamiento</a>
+                    <a href="{{ url_for('wallet')}}" class="text-white hover:bg-indigo-500 hover:bg-opacity-75 rounded-md py-2 px-3 text-sm font-medium">Billetera</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<section class="relative pt-12 sm:pt-16 lg:py-20 xl:py-24">
+    <div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto lg:flex lg:items-center">
+            <div class="max-w-md mx-auto text-center lg:w-1/2 lg:text-left lg:max-w-none lg:mx-0">
+                <h1 class="text-3xl font-bold text-white sm:text-4xl xl:text-6xl">Los eventos memorables están aqui, en GoodTimes.</h1>
+                <p class="max-w-sm mx-auto mt-6 text-lg font-normal text-gray-200 lg:mx-0 xl:text-xl">Organiza tu evento, en pocos clicks. Al finalizar el evento, obsequia recuerdos digitales coleccionables.</p>
+                <div class="mt-10">
+                    <a
+                        href="/one"
+                        title=""
+                        class="inline-flex items-center justify-center px-6 py-4 text-xl text-black font-semibold transition-all duration-200 border border-transparent rounded-lg bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 hover:bg-yellow-500"
+                        role="button"
+                    >
+                        Crear coleccionables ✨
+                    </a>
+                </div>
+
+                <div class="inline-grid grid-cols-2 mt-12 gap-x-8">
+                    <div class="flex flex-col lg:items-center lg:space-x-3 lg:flex-row">
+                        <p class="text-4xl font-bold text-white">249+</p>
+                        <p class="mt-2 text-sm font-medium text-gray-400 lg:mt-0">Eventos <br class="hidden lg:block" />Creados</p>
+                    </div>
+
+                    <div class="flex flex-col lg:items-center lg:space-x-3 lg:flex-row">
+                        <p class="text-4xl font-bold text-white">5,900+</p>
+                        <p class="mt-2 text-sm font-medium text-gray-400 lg:mt-0">Recuerdos <br class="hidden lg:block" />Memorables</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative mt-8 lg:mt-0">
+                <img class="" src="/static/images/hero.png" alt="" />
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript" src="https://livejs.com/live.js"></script>
+</body>
+</html>
